@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+  <audio id="tom1">
+    <source src="sounds/tom-1.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="tom2">
+    <source src="sounds/tom-2.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="tom3">
+    <source src="sounds/tom-3.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="tom4">
+    <source src="sounds/tom-4.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="snare">
+    <source src="sounds/snare.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="kick_bass">
+    <source src="sounds/kick-bass.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="crash">
+    <source src="sounds/crash.mp3" type="audio/mpeg">
+  </audio>
+  <h1 id="title">Drum 🥁 Kit</h1>
+  <div class="set">
+    <button onclick="playAudio1()" type="button" class="w drum">w</button>
+    <button onclick="playAudio2()" type="button" class="a drum">a</button>
+    <button onclick="playAudio3()" type="button" class="s drum">s</button>
+    <button onclick="playAudio4()" type="button" class="d drum">d</button>
+    <button onclick="playAudio5()" type="button" class="j drum">j</button>
+    <button onclick="playAudio6()" type="button" class="k drum">k</button>
+    <button onclick="playAudio7()" type="button" class="l drum">l</button>
+  </div>
+
+  <footer>
+    Made with ❤️ in London.
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
+
+<!--<!DOCTYPE html>
+<html>
+<body>
+
+<audio id="myAudio">
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="sounds/tom-1.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p>Click the buttons to play or pause the audio.</p>
+
+<button onclick="playAudio()" type="button">Play Audio</button>
+<button onclick="pauseAudio()" type="button">Pause Audio</button> 
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
+
+</body>
+</html>-->
